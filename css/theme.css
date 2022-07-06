@@ -4330,6 +4330,11 @@ section {
     padding-left: 15px;
     padding-right: 65px;
 }
+.table-earning thead th.text-centar {
+    /* padding-left: 15px;
+    padding-right: 65px; */
+    text-align: center;
+}
 
 .table-earning tbody td {
     color: #808080;
@@ -4340,6 +4345,11 @@ section {
 .table-earning tbody td.text-right {
     padding-left: 15px;
     padding-right: 65px;
+}
+.table-earning tbody td.text-centar {
+    /* padding-left: 15px;
+    padding-right: 65px; */
+    text-align: center;
 }
 
 .table-earning tbody tr:hover td {
