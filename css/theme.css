@@ -1295,9 +1295,9 @@ section {
     top: 51px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 999px) {
     .logo {
-        text-align: center;
+        text-align: left;
     }
 }
 
