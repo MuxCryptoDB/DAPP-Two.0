@@ -43,7 +43,7 @@
                 <div class="container-fluid">
                     <div class="header-mobile-inner">
                         <a class="logo" href="index.html">
-                            <img src="images/icon/logo.png" alt="CheemsX" />                           
+                            <img src="images/icon/logo.png" alt="CheemsX" />
                         </a>
                         <button class="hamburger hamburger--slider" type="button">
                             <span class="hamburger-box">
@@ -56,13 +56,13 @@
             <nav class="navbar-mobile">
                 <div class="container-fluid">
                     <ul class="navbar-mobile__list list-unstyled">
-                        <li class="has-sub">
+                        <li>
                             <a class="js-arrow" href="index.html">
                                 <i class="fas fa-tachometer-alt"></i>Dashboard</a>
                            
                         </li>
                         <li class="active">
-                            <a href="TreasuryBalance.html">
+                            <a href="treasury.html">
                                 <i class="fas fa-table"></i>Treasary Balance
                             </a>
                         </li>
@@ -75,15 +75,15 @@
                                 <i class="far fa-check-square"></i>Giveway & Airdrops</a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="#">
                                 <i class="fas fa-calendar-alt"></i>Community Involve</a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="#">
                                 <i class="fas fa-calendar-alt"></i>Project Incubation</a>
                         </li> 
                         <li class="has-sub">
-                            <a class="js-arrow" href="stacking.html">
+                            <a class="js-arrow" href="#">
                                 <i class="fas fa-tachometer-alt"></i>Stacking & Bonding</a>
                             <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
                                 <li>
@@ -98,8 +98,24 @@
                               
                             </ul>
                         </li>
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-tachometer-alt"></i>CheemsX NFT</a>
+                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
+                                <li>
+                                    <a href="mint.html">Mint</a>
+                                </li>
+                                <li>
+                                    <a href="manage.html">Manage </a>
+                                </li>
+                                <li>
+                                    <a href="borrowRedeem.html">Borrow And Redeeem</a>
+                                </li>
+                              
+                            </ul>
+                        </li>
                         <li>
-                            <a href="">
+                            <a href="#">
                                 <i class="fas fa-calendar-alt"></i>News, Update & Blogs</a>
                         </li>
 
@@ -121,11 +137,11 @@
                     <ul class="list-unstyled navbar__list">
                         <li class="has-sub">
                             <a class="js-arrow" href="index.html">
-                                <i class="fas fa-table"></i>Dashboard</a>
-                           
+                                <i class="fas fa-table"></i>Dashboard
+                            </a>                            
                         </li>
                         <li class="active">
-                            <a href="TreasuryBalance.html">
+                            <a href="treasury.html">
                                 <i class="fas fa-table"></i>Treasary Balance
                             </a>
                         </li>
@@ -146,7 +162,7 @@
                                 <i class="fas fa-calendar-alt"></i>Project Incubation</a>
                         </li> 
                         <li class="has-sub">
-                            <a class="js-arrow" href="stacking.html">
+                            <a class="js-arrow" href="#">
                                 <i class="fas fa-tachometer-alt"></i>Stacking & Bonding</a>
                             <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
                                 <li>
@@ -157,6 +173,22 @@
                                 </li>
                                 <li>
                                     <a href="NFTNode.html">NFT Node </a>
+                                </li>
+                              
+                            </ul>
+                        </li>
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-tachometer-alt"></i>CheemsX NFT</a>
+                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
+                                <li>
+                                    <a href="mint.html">Mint</a>
+                                </li>
+                                <li>
+                                    <a href="manage.html">Manage </a>
+                                </li>
+                                <li>
+                                    <a href="borrowRedeem.html">Borrow And Redeeem</a>
                                 </li>
                               
                             </ul>
@@ -195,8 +227,7 @@
                                         </div>
                                         <div class="content">
                                             <button class="au-btn au-btn-icon au-btn--blue"> Connect Wallet</button>
-                                        </div>
-                                      
+                                        </div>                                       
                                     </div>
                                 </div>
                             </div>
@@ -215,86 +246,135 @@
 
                         <div class="row">
                             <div class="col-lg-12">
-                                <h2 class="title-1 m-b-25">Treasary Balance </h2>
+                                <h2 class="title-1 m-b-25">Treasury Balance</h2>
                                 <div class="table-responsive table--no-card m-b-40">
                                     <table class="table table-borderless table-striped table-earning">
                                         <thead>
                                             <tr>
-                                                <th class="text-centar">Token</th>
-                                                <th class="text-centar"> Balance ID</th>                                                
-                                                <th class="text-centar">Percentage</th>
-                                                <th class="text-centar">Price</th>
-                                                <th class="text-centar">USD</th>
-                                               
+                                                <th class="text-centar" align="centar"> date</th>
+                                                <th class="text-centar" align="centar"> ID</th>                                                
+                                                <th class="text-centar" align="centar"> Amount</th>
+                                                <th class="text-centar" align="centar"> Cummulative Amount</th>
+                                                <th class="text-centar" align="centar"> Dollar Spend </th>
+                                                <th class="text-centar" align="centar"> Cummulative Dollar </th>
+                                                <th class="text-centar" align="centar"> Transaction</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td class="text-centar">PlebToken</td>
-                                                <td class="text-centar">4025651052</td>
-                                                <td class="text-centar">60.87%</td>
-                                                <td class="text-centar">020561205255(traderjoe)</td>
-                                                <td class="text-centar">$1512.80 </td>
-                                               
+                                                <td class="text-centar">2022-09-29 05:57</td>
+                                                <td class="text-centar">100398</td>
+                                                <td class="text-centar">1000</td>
+                                                <td class="text-centar">$999.00</td>
+                                                <td class="text-centar">$1</td>
+                                                <td class="text-centar">$500.00</td>
+                                                <td class="text-centar"><a href="#">snowtrace.io</a></td>
                                             </tr>
                                             <tr>
-                                                <td class="text-centar">CheemsX</td>
-                                                <td class="text-centar">4025651052</td>
-                                                <td class="text-centar">60.87%</td>
-                                                <td class="text-centar">020561205255(traderjoe)</td>
-                                                <td class="text-centar">$1512.80 </td>
-                                               
+                                                <td class="text-centar">2022-09-28 01:22</td>
+                                                <td class="text-centar">100397</td>
+                                                <td class="text-centar">849561</td>
+                                                <td class="text-centar">$895.00</td>
+                                                <td class="text-centar">1</td>
+                                                <td class="text-centar">$756.00</td>
+                                                <td class="text-centar"><a href="#">snowtrace.io</a></td>
                                             </tr>
                                             <tr>
-                                                <td class="text-centar">EverBurn</td>
-                                                <td class="text-centar">4025651052</td>
-                                                <td class="text-centar">60.87%</td>
-                                                <td class="text-centar">020561205255(traderjoe)</td>
-                                                <td class="text-centar">$1512.80 </td>
-                                                
+                                                <td class="text-centar">2022-09-27 02:12</td>
+                                                <td class="text-centar">100396</td>
+                                                <td class="text-centar">849651</td>
+                                                <td class="text-centar">$22.00</td>
+                                                <td class="text-centar">2</td>
+                                                <td class="text-centar">$444.00</td>
+                                                <td class="text-centar"><a href="#">snowtrace.io</a></td>
                                             </tr>
                                             <tr>
-                                                <td class="text-centar">Thether USD</td>
-                                                <td class="text-centar">4025651052</td>
-                                                <td class="text-centar">60.87%</td>
-                                                <td class="text-centar">020561205255(traderjoe)</td>
-                                                <td class="text-centar">$1512.80 </td>
-                                               
+                                                <td class="text-centar">2022-09-26 23:06</td>
+                                                <td class="text-centar">100395</td>
+                                                <td class="text-centar">9846516</td>
+                                                <td class="text-centar">$1199.00</td>
+                                                <td class="text-centar">1</td>
+                                                <td class="text-centar">$350.00</td>
+                                                <td class="text-centar"><a href="#">snowtrace.io</a></td>
                                             </tr>
-                                            <tr> 
-                                                <td class="text-centar">Ed</td>
-                                                <td class="text-centar">4025651052</td>
-                                                <td class="text-centar">60.87%</td>
-                                                <td class="text-centar">020561205255(traderjoe)</td>
-                                                <td class="text-centar">$1512.80 </td>                                        
-                                            </tr>                                         
+                                            <tr>
+                                                <td class="text-centar">2022-09-25 19:03</td>
+                                                <td class="text-centar">100393</td>
+                                                <td class="text-centar">651654</td>
+                                                <td class="text-centar">$146.00</td>
+                                                <td class="text-centar">3</td>
+                                                <td class="text-centar">$79.00</td>
+                                                <td class="text-centar"><a href="#">snowtrace.io</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-centar">2022-09-13 05:57</td>
+                                                <td class="text-centar">100392</td>
+                                                <td class="text-centar">169541</td>
+                                                <td class="text-centar">$1999.00</td>
+                                                <td class="text-centar">6</td>
+                                                <td class="text-centar">$1494.00</td>
+                                                <td class="text-centar"><a href="#">snowtrace.io</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-centar">2022-09-24 19:10</td>
+                                                <td class="text-centar">100391</td>
+                                                <td class="text-centar">956415</td>
+                                                <td class="text-centar">$1679.00</td>
+                                                <td class="text-centar">1</td>
+                                                <td class="text-centar">$699.00</td>
+                                                <td class="text-centar"><a href="#">snowtrace.io</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-centar">2022-09-14 00:43</td>
+                                                <td class="text-centar">100393</td>
+                                                <td class="text-centar">5654554</td>
+                                                <td class="text-centar">$1250.00</td>
+                                                <td class="text-centar">3</td>
+                                                <td class="text-centar">$30.00</td>
+                                                <td class="text-centar"><a href="#">snowtrace.io</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-centar">2022-09-19 00:43</td>
+                                                <td class="text-centar">100393</td>
+                                                <td class="text-centar">748532119</td>
+                                                <td class="text-centar">$120.00</td>
+                                                <td class="text-centar">3</td>
+                                                <td class="text-centar">$30.00</td>
+                                                <td class="text-centar"><a href="#">snowtrace.io</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-centar">2022-09-03 00:43</td>
+                                                <td class="text-centar">100393</td>
+                                                <td class="text-centar">213489545</td>
+                                                <td class="text-centar">$1640.00</td>
+                                                <td class="text-centar">3</td>
+                                                <td class="text-centar">$730.00</td>
+                                                <td class="text-centar"><a href="#">snowtrace.io</a></td>
+                                            </tr>
                                         </tbody>
                                     </table>
-                                </div>                              
-                            </div>                            
+                                </div>
+                            </div>
+                            
                         </div>
-
-                      
-<!--                        
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="au-card m-b-30">
                                     <div class="au-card-inner">
-                                        <h3 class="title-2 m-b-40">Yearly Sales</h3>
+                                        <h3 class="title-2 m-b-40">Buybacklog Chart</h3>
                                         <canvas id="sales-chart"></canvas>
                                     </div>
                                 </div>
                             </div>
-                        </div>   -->
-
+                        </div>
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="copyright">
                                     <p>Copyright © 2022 CheemsX. All rights reserved. Template by <a href="https://cheemsx.org">CheemsX</a>.</p>
                                 </div>
                             </div>
-                        </div>   
-                    </div>                    
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- END MAIN CONTENT-->
@@ -331,3 +411,4 @@
 
 </html>
 <!-- end document-->
+<!-- end document 2-->

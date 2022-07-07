@@ -56,13 +56,13 @@
             <nav class="navbar-mobile">
                 <div class="container-fluid">
                     <ul class="navbar-mobile__list list-unstyled">
-                        <li class="has-sub">
+                        <li>
                             <a class="js-arrow" href="index.html">
-                                <i class="fas fa-tachometer-alt"></i>Dashboard</a>
-                           
+                                <i class="fas fa-tachometer-alt"></i>Dashboard
+                            </a>                           
                         </li>
                         <li >
-                            <a href="TreasuryBalance.html">
+                            <a href="treasury.html">
                                 <i class="fas fa-table"></i>Treasary Balance
                             </a>
                         </li>
@@ -83,7 +83,7 @@
                                 <i class="fas fa-calendar-alt"></i>Project Incubation</a>
                         </li> 
                         <li class="has-sub">
-                            <a class="js-arrow" href="stacking.html">
+                            <a class="js-arrow" href="#">
                                 <i class="fas fa-tachometer-alt"></i>Stacking & Bonding</a>
                             <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
                                 <li>
@@ -94,6 +94,22 @@
                                 </li>
                                 <li>
                                     <a href="NFTNode.html">NFT Node </a>
+                                </li>
+                              
+                            </ul>
+                        </li>
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-tachometer-alt"></i>CheemsX NFT</a>
+                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
+                                <li>
+                                    <a href="mint.html">Mint</a>
+                                </li>
+                                <li>
+                                    <a href="manage.html">Manage </a>
+                                </li>
+                                <li>
+                                    <a href="borrowRedeem.html">Borrow And Redeeem</a>
                                 </li>
                               
                             </ul>
@@ -119,13 +135,14 @@
             <div class="menu-sidebar__content js-scrollbar1">
                 <nav class="navbar-sidebar">
                     <ul class="list-unstyled navbar__list">
-                        <li class=" has-sub">
+                        <li>
                             <a class="js-arrow" href="index.html">
-                                <i class="fas fa-table"></i>Dashboard</a>
+                                <i class="fas fa-table"></i>Dashboard
+                            </a>
                            
                         </li>
                         <li>
-                            <a href="TreasuryBalance.html">
+                            <a href="treasury.html">
                                 <i class="fas fa-table"></i>Treasary Balance
                             </a>
                         </li>
@@ -146,7 +163,7 @@
                                 <i class="fas fa-calendar-alt"></i>Project Incubation</a>
                         </li> 
                         <li class="has-sub">
-                            <a class="js-arrow" href="stacking.html">
+                            <a class="js-arrow" href="#">
                                 <i class="fas fa-tachometer-alt"></i>Stacking & Bonding</a>
                             <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
                                 <li>
@@ -157,6 +174,22 @@
                                 </li>
                                 <li>
                                     <a href="NFTNode.html">NFT Node </a>
+                                </li>
+                              
+                            </ul>
+                        </li>
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-tachometer-alt"></i>CheemsX NFT</a>
+                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
+                                <li>
+                                    <a href="mint.html">Mint</a>
+                                </li>
+                                <li>
+                                    <a href="manage.html">Manage </a>
+                                </li>
+                                <li>
+                                    <a href="borrowRedeem.html">Borrow And Redeeem</a>
                                 </li>
                               
                             </ul>
@@ -213,7 +246,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="overview-wrap">
-                                    <h2 class="title-1">Stacking</h2>
+                                    <h2 class="title-1">Locking</h2>
 
                                 </div>
                             </div>
@@ -309,143 +342,136 @@
                                         <input class="btn btn-success" type="reset" value="Confirm" >
                                     </div>
                                 </div>                                
-                            </div>
-                            <div class="col-lg-6"> 
-                                <div class="card">
-                                    <div class="card-header">
-                                        <strong>Unstake </strong>                                        
-                                    </div>
-                                    <div class="card-body">
-                                    
-                                        <input class="form-control p2 mr-0" type="text" placeholder="Claim Selected"></br>
-                                        <input class="form-control p2 mr-0" type="tel" placeholder="Compared Selected">
-                                    </div>
-                                    <div class="card-body"> 
-                                        <input class="btn btn-success" type="submit" value="Unstake Selected">
-                                    </div>                                                                  
-                                </div>   
-                            </div>                                                   
+                            </div>                           
                         </div>
                         
                       <hr> 
                       <div class="row"> 
-                        <div class="col-lg-12">
-                              
-                            <div class="row">
-                                <div class="col-lg-12">
-                                   
-                                    <div class="table-responsive table--no-card m-b-40">
-                                        <table class="table table-borderless table-striped table-earning">
-                                            <thead>
-                                                <tr>
-                                                    <th class="text-centar" align="centar"> Name</th>
-                                                    <th class="text-centar" align="centar"> Stake Amount</th>                                                
-                                                    <th class="text-centar" align="centar"> Date/Time</th>
-                                                    <th class="text-centar" align="centar"> Last Claimed</th>
-                                                    <th class="text-centar" align="centar"> Rewards </th>
-                                                    <th class="text-centar" align="centar"> Daily APR </th>
-                                                    <th class="text-centar" align="centar"> Unlock Date</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td class="text-centar">Aguro</td>
-                                                    <td class="text-centar">100398</td>
-                                                    <td class="text-centar">2022-09-29 05:57</td>
-                                                    <td class="text-centar">$999.00</td>
-                                                    <td class="text-centar">$1</td>
-                                                    <td class="text-centar">$500.00</td>
-                                                    <td class="text-centar"><a href="#">snowtrace.io</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td class="text-centar">Zems Hoa</td>
-                                                    <td class="text-centar">100397</td>
-                                                    <td class="text-centar">2022-09-29 05:57</td>
-                                                    <td class="text-centar">$895.00</td>
-                                                    <td class="text-centar">1</td>
-                                                    <td class="text-centar">$756.00</td>
-                                                    <td class="text-centar"><a href="#">snowtrace.io</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td class="text-centar">Rafino</td>
-                                                    <td class="text-centar">100396</td>
-                                                    <td class="text-centar">2022-09-29 05:57</td>
-                                                    <td class="text-centar">$22.00</td>
-                                                    <td class="text-centar">2</td>
-                                                    <td class="text-centar">$444.00</td>
-                                                    <td class="text-centar"><a href="#">snowtrace.io</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td class="text-centar">Braksod</td>
-                                                    <td class="text-centar">100395</td>
-                                                    <td class="text-centar">2022-09-29 05:57</td>
-                                                    <td class="text-centar">$1199.00</td>
-                                                    <td class="text-centar">1</td>
-                                                    <td class="text-centar">$350.00</td>
-                                                    <td class="text-centar"><a href="#">snowtrace.io</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td class="text-centar">Neibaw</td>
-                                                    <td class="text-centar">100393</td>
-                                                    <td class="text-centar">2022-09-29 05:57</td>
-                                                    <td class="text-centar">$146.00</td>
-                                                    <td class="text-centar">3</td>
-                                                    <td class="text-centar">$79.00</td>
-                                                    <td class="text-centar"><a href="#">snowtrace.io</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td class="text-centar">Mirosa</td>
-                                                    <td class="text-centar">100392</td>
-                                                    <td class="text-centar">2022-09-29 05:57</td>
-                                                    <td class="text-centar">$1999.00</td>
-                                                    <td class="text-centar">6</td>
-                                                    <td class="text-centar">$1494.00</td>
-                                                    <td class="text-centar"><a href="#">snowtrace.io</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td class="text-centar">Burlie</td>
-                                                    <td class="text-centar">100391</td>
-                                                    <td class="text-centar">2022-09-29 05:57</td>
-                                                    <td class="text-centar">$1679.00</td>
-                                                    <td class="text-centar">1</td>
-                                                    <td class="text-centar">$699.00</td>
-                                                    <td class="text-centar"><a href="#">snowtrace.io</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td class="text-centar">Nitaso</td>
-                                                    <td class="text-centar">100393</td>
-                                                    <td class="text-centar">2022-09-29 05:57</td>
-                                                    <td class="text-centar">$1250.00</td>
-                                                    <td class="text-centar">3</td>
-                                                    <td class="text-centar">$30.00</td>
-                                                    <td class="text-centar"><a href="#">snowtrace.io</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td class="text-centar">Burnikes</td>
-                                                    <td class="text-centar">100393</td>
-                                                    <td class="text-centar">2022-09-29 05:57</td>
-                                                    <td class="text-centar">$120.00</td>
-                                                    <td class="text-centar">3</td>
-                                                    <td class="text-centar">$30.00</td>
-                                                    <td class="text-centar"><a href="#">snowtrace.io</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td class="text-centar">Nitar</td>
-                                                    <td class="text-centar">100393</td>
-                                                    <td class="text-centar">2022-09-29 05:57</td>
-                                                    <td class="text-centar">$1640.00</td>
-                                                    <td class="text-centar">3</td>
-                                                    <td class="text-centar">$730.00</td>
-                                                    <td class="text-centar"><a href="#">snowtrace.io</a></td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
+                            <div class="col-lg-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                    
+                                        <button class="btn btn-danger" type="submit">Claim Selected</button>
+                                        <input class="btn btn-gray" type="button" value="Compare Selected">
+                                        <input class="btn btn-success" align="right" type="submit" value="Unstake Selected">
+                                        <!-- <input class="btn btn-warning" type="reset" value="Reset"> -->
+                                    </div>                                                                                                      
+                                </div>   
                                 
-                            </div>                         
-                        </div>
-
+                                <div class="row">
+                                    <div class="col-lg-12">                                   
+                                        <div class="table-responsive table--no-card m-b-40">
+                                        
+                                            <table class="table table-borderless table-striped table-earning">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-centar" align="centar"> Name</th>
+                                                        <th class="text-centar" align="centar"> Stake Amount</th>                                                
+                                                        <th class="text-centar" align="centar"> Date/Time</th>
+                                                        <th class="text-centar" align="centar"> Last Claimed</th>
+                                                        <th class="text-centar" align="centar"> Rewards </th>
+                                                        <th class="text-centar" align="centar"> Daily APR </th>
+                                                        <th class="text-centar" align="centar"> Unlock Date</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-centar">Aguro</td>
+                                                        <td class="text-centar">100398</td>
+                                                        <td class="text-centar">2022-09-29 05:57</td>
+                                                        <td class="text-centar">$999.00</td>
+                                                        <td class="text-centar">$1</td>
+                                                        <td class="text-centar">$500.00</td>
+                                                        <td class="text-centar"><a href="#">snowtrace.io</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-centar">Zems Hoa</td>
+                                                        <td class="text-centar">100397</td>
+                                                        <td class="text-centar">2022-09-29 05:57</td>
+                                                        <td class="text-centar">$895.00</td>
+                                                        <td class="text-centar">1</td>
+                                                        <td class="text-centar">$756.00</td>
+                                                        <td class="text-centar"><a href="#">snowtrace.io</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-centar">Rafino</td>
+                                                        <td class="text-centar">100396</td>
+                                                        <td class="text-centar">2022-09-29 05:57</td>
+                                                        <td class="text-centar">$22.00</td>
+                                                        <td class="text-centar">2</td>
+                                                        <td class="text-centar">$444.00</td>
+                                                        <td class="text-centar"><a href="#">snowtrace.io</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-centar">Braksod</td>
+                                                        <td class="text-centar">100395</td>
+                                                        <td class="text-centar">2022-09-29 05:57</td>
+                                                        <td class="text-centar">$1199.00</td>
+                                                        <td class="text-centar">1</td>
+                                                        <td class="text-centar">$350.00</td>
+                                                        <td class="text-centar"><a href="#">snowtrace.io</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-centar">Neibaw</td>
+                                                        <td class="text-centar">100393</td>
+                                                        <td class="text-centar">2022-09-29 05:57</td>
+                                                        <td class="text-centar">$146.00</td>
+                                                        <td class="text-centar">3</td>
+                                                        <td class="text-centar">$79.00</td>
+                                                        <td class="text-centar"><a href="#">snowtrace.io</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-centar">Mirosa</td>
+                                                        <td class="text-centar">100392</td>
+                                                        <td class="text-centar">2022-09-29 05:57</td>
+                                                        <td class="text-centar">$1999.00</td>
+                                                        <td class="text-centar">6</td>
+                                                        <td class="text-centar">$1494.00</td>
+                                                        <td class="text-centar"><a href="#">snowtrace.io</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-centar">Burlie</td>
+                                                        <td class="text-centar">100391</td>
+                                                        <td class="text-centar">2022-09-29 05:57</td>
+                                                        <td class="text-centar">$1679.00</td>
+                                                        <td class="text-centar">1</td>
+                                                        <td class="text-centar">$699.00</td>
+                                                        <td class="text-centar"><a href="#">snowtrace.io</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-centar">Nitaso</td>
+                                                        <td class="text-centar">100393</td>
+                                                        <td class="text-centar">2022-09-29 05:57</td>
+                                                        <td class="text-centar">$1250.00</td>
+                                                        <td class="text-centar">3</td>
+                                                        <td class="text-centar">$30.00</td>
+                                                        <td class="text-centar"><a href="#">snowtrace.io</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-centar">Burnikes</td>
+                                                        <td class="text-centar">100393</td>
+                                                        <td class="text-centar">2022-09-29 05:57</td>
+                                                        <td class="text-centar">$120.00</td>
+                                                        <td class="text-centar">3</td>
+                                                        <td class="text-centar">$30.00</td>
+                                                        <td class="text-centar"><a href="#">snowtrace.io</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-centar">Nitar</td>
+                                                        <td class="text-centar">100393</td>
+                                                        <td class="text-centar">2022-09-29 05:57</td>
+                                                        <td class="text-centar">$1640.00</td>
+                                                        <td class="text-centar">3</td>
+                                                        <td class="text-centar">$730.00</td>
+                                                        <td class="text-centar"><a href="#">snowtrace.io</a></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    
+                                </div>                         
+                            </div>
                       </div>
                         
 
